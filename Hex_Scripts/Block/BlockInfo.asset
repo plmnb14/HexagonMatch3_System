@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4fc427399e305143aa839dbff301966, type: 3}
+  m_Name: BlockInfo
+  m_EditorClassIdentifier: 
+  _dropFallingSpeed: 12
+  _normalBlockPrefab: {fileID: 1133778966918329104, guid: 9e4189784d7df284ca653313440e3392, type: 3}
+  _skins:
+  - category: 0
+    detailType: 0
+    sprites:
+    - {fileID: 21300000, guid: 24f8c355e98a38c4fa27787e013d22b0, type: 3}
+    popParticleSprite: {fileID: 21300000, guid: d8e61512cbafd5c4d8784809bed39538, type: 3}
+  - category: 0
+    detailType: 1
+    sprites:
+    - {fileID: 21300000, guid: 249bfa095fbc0cc4facc3d48713e1eb2, type: 3}
+    popParticleSprite: {fileID: 21300000, guid: c0aa461217b958548892075aec698332, type: 3}
+  - category: 0
+    detailType: 2
+    sprites:
+    - {fileID: 21300000, guid: 5ba810069aa98aa469ceddec74ea7ac9, type: 3}
+    popParticleSprite: {fileID: 21300000, guid: b4bcc0ac9f0001842aaf006cf1cc98f3, type: 3}
+  - category: 0
+    detailType: 3
+    sprites:
+    - {fileID: 21300000, guid: cab497377be1c5d4ba95de77cf9fd536, type: 3}
+    popParticleSprite: {fileID: 21300000, guid: 2637d592c2e45bc41b7d590d8ce3d111, type: 3}
+  - category: 0
+    detailType: 4
+    sprites:
+    - {fileID: 21300000, guid: 8d61186d015c0b24b9de5df06b83418d, type: 3}
+    popParticleSprite: {fileID: 21300000, guid: b8adee87ebf499144b90450a9c7a7c6f, type: 3}
+  - category: 0
+    detailType: 5
+    sprites:
+    - {fileID: 21300000, guid: a25c2d3cc4d7d664ca1b5649f96018fd, type: 3}
+    popParticleSprite: {fileID: 21300000, guid: 83e9f08927c569b4e8dd8043fd382358, type: 3}
+  - category: 1
+    detailType: 6
+    sprites:
+    - {fileID: 21300000, guid: c67874688e77c9e4a98cda84026f44fe, type: 3}
+    popParticleSprite: {fileID: 21300000, guid: 9063e7e166caf41489b5dfa14e3d731f, type: 3}
+  - category: 1
+    detailType: 7
+    sprites:
+    - {fileID: 21300000, guid: c67874688e77c9e4a98cda84026f44fe, type: 3}
+    popParticleSprite: {fileID: 21300000, guid: 9063e7e166caf41489b5dfa14e3d731f, type: 3}
+  - category: 1
+    detailType: 8
+    sprites:
+    - {fileID: 21300000, guid: c67874688e77c9e4a98cda84026f44fe, type: 3}
+    popParticleSprite: {fileID: 21300000, guid: 9063e7e166caf41489b5dfa14e3d731f, type: 3}
+  - category: 2
+    detailType: 9
+    sprites:
+    - {fileID: 21300000, guid: 60fe690d4a7aa2547805b03b54b63508, type: 3}
+    - {fileID: 21300000, guid: 7dd70e2050a7a014894284c73ba9262a, type: 3}
+    popParticleSprite: {fileID: 21300000, guid: 9063e7e166caf41489b5dfa14e3d731f, type: 3}
+  - category: 2
+    detailType: 10
+    sprites:
+    - {fileID: 21300000, guid: c67874688e77c9e4a98cda84026f44fe, type: 3}
+    popParticleSprite: {fileID: 21300000, guid: 9063e7e166caf41489b5dfa14e3d731f, type: 3}
+  _blockPopVfxPrefab: {fileID: 5993378017383129693, guid: df0e3d4335a7a1b489e90564f4f5a380, type: 3}
