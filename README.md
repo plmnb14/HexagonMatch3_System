@@ -15,3 +15,8 @@
 - `BlockBase.cs`    : 블록 개별 이동 및 상태 관리 | MonoBehaviour
 - `BlockManager.cs` : 블록/VFX 풀링 및 팝 연출 | Singleton
 - `BlockData.cs`    : BlockSkin, Enum, Struct 정의 | Data
+--------------------------------------------------
+
+## 개발 환경
+- Unity 6000.0.48f1
+- C#
