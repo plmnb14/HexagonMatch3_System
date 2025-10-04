@@ -1,2 +1,19 @@
 # HexagonMatch3_System
 HexagonMatch3
+
+--------------------------------------------------
+
+# 프로젝트 개요
+- 퍼즐 매칭 3게임의 핵심 루프 구현 (스왑 → 매칭 → 팝 → 낙하 → 재생성 → 체인)
+- Hex형(6방향) 격자 기반 보드 로직
+- Unity 6000.0.48f1 기준 작성
+
+--------------------------------------------------
+
+# 구조 요약
+- `HexBoard.cs`     : 보드 오케스트레이션 / 체인 루프 / 팝 / 스폰 관리 | Main
+- `HexDropper.cs`   : 낙하 경로 계획 및 적용 / 버퍼 재사용 | 인스턴스
+- `HexMatcher.cs`   : 매칭 판정 (순수 계산) | static
+- `BlockBase.cs`    : 블록 개별 이동 및 상태 관리 | MonoBehaviour
+- `BlockManager.cs` : 블록/VFX 풀링 및 팝 연출 | Singleton
+- `BlockData.cs`    : BlockSkin, Enum, Struct 정의 | Data
